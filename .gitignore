@@ -3,6 +3,9 @@ _gh_pages
 _site
 .ruby-version
 
+# Ignore Gemfiles
+Gemfile*
+
 # Numerous always-ignore extensions
 *.diff
 *.err
