@@ -1,22 +1,28 @@
 # Dependencies
 markdown:         redcarpet
-pygments:         true
+highlighter:	  true
 
 # Permalinks
 permalink:        pretty
 
 # Setup
-title:            Poole
-tagline:          The Jekyll Butler
-url:              http://getpoole.com
+title:            days in the cloud
+tagline:          wasik mursalin's tech blog
+url:              http://rushafi.github.io
 paginate:         1
 baseurl:          /
 author:
-  name:           Mark Otto
-  url:            https://twitter.com/mdo
-  email:          markdotto@gmail.com
+  name:           Wasik Mursalin
+  url:            http://www.toptal.com/ios#mobility-in-daily-life
+  email:          rushafi@gmail.com
 
 # Custom vars
 version:          1.0.0
 github:
   repo:           https://github.com/poole/poole
+
+# Header Pages
+pages_list:
+  About:		  '/about'
+  Posts:		  '/archive'
+  Feed:			  '/atom.xml'
